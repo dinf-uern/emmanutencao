@@ -1,0 +1,31 @@
+html{
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body {
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 2em;
+    padding-top: 140px;
+    overflow-x: hidden;
+
+    color: white;
+
+    background: rgb(43, 95, 247);
+    background: -moz-radial-gradient(center, ellipse cover, rgb(43, 95, 247) 0%, rgba(0,10,125,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgb(43, 95, 247)), color-stop(100%, rgba(0,10,125,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(43, 95, 247) 0%, rgba(0,10,125,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgb(43, 95, 247) 0%, rgba(0,10,125,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgb(43, 95, 247) 0%, rgba(0,10,125,1) 100%);
+    background: radial-gradient(ellipse at center, rgb(43, 95, 247) 0%, rgba(0,10,125,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3492f7', endColorstr='#000a7d', GradientType=1 );
+
+}
+
+i.fa {
+    font-size: 48px;
+    border: 2px solid white; margin: auto; width: 88px; height: 88px; line-height: 88px; border-radius: 50%;
+}
